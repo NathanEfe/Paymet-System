@@ -4,7 +4,7 @@ if (!isset($_GET['reference'])) {
 }
 
 $reference = $_GET['reference'];
-$secret_key = 'pk_live_d935bdcfaf6ec41e2e9679dfd8775865da2b85ac';
+$secret_key = 'sk_live_648473a482ae2be16281b6b8e41500d7dddf27a4';
 
 
 $ch = curl_init("https://api.paystack.co/transaction/verify/$reference");
